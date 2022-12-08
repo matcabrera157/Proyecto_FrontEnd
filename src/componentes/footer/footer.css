@@ -1,0 +1,54 @@
+footer {
+    background: linear-gradient(100deg, black 28%, chocolate 95%);
+}
+
+.iconos {
+    color: yellow;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.iconosPosicion { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.textoPosicion{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    font-size: 0.5rem;
+    margin-top: 4rem;
+    font-style: italic;
+}
+
+.copyright{
+    margin-top: 1.5rem;
+    width: 12rem;
+    color: aqua;
+}
+
+.textoPosicion2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: yellow ;
+    font-size: 0.5rem;
+    margin-top: 7.1rem;
+    
+}
+
+
+.links {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 4.1rem;
+    color: aqua;
+}

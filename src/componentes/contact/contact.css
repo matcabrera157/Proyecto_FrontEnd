@@ -1,0 +1,78 @@
+.contenedorDeContacto{
+    display: flex;
+    background: url(asus1.jpg) center;
+    justify-content: center;
+}
+
+.contactUs{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 2.3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:chocolate;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(100deg, blue 28%, chocolate 95%);
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px black
+}
+
+.letra {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px ;
+}
+
+.contenedor{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.aceptar{
+    margin-left: 3rem;
+}
+.contenedor input{
+    color: white;
+    padding: 1rem;
+    padding-top: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(100deg, blue 28%, chocolate 95%);
+    margin:0.3em 0.5em 1em 0.5em;
+}
+
+.contenedor input:hover{
+border: 1.5px solid 
+black;
+}
+
+.form input{
+    max-height: 30px;
+    border-radius:10px;
+    border: 1px;
+}
+
+.textTarea {
+    max-height: 11vw;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(min-width:500px) {
+    .form{
+        width: 100vw;
+        margin-top: 5rem;
+        margin-left: 25rem;
+        margin-bottom: 5rem;
+        margin-right: 25rem;
+    }
+}

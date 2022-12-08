@@ -1,0 +1,83 @@
+.registrarme2{
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.contenedorDeContacto2{
+    display: flex;
+    background: url(wallpaperLogIn.jpg) center;
+    justify-content: center;
+}
+
+.contactUs2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 2.3rem;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:chocolate;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(100deg, blue 28%, chocolate 95%);
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px black
+}
+
+.letra2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px ;
+}
+
+.color2{
+    color: chocolate;
+    margin-left: 0.3rem;
+}
+.contenedor2{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.contenedor2 input{
+    color: white;
+    padding: 1rem;
+    padding-top: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(100deg, blue 28%, chocolate 95%);
+    margin:0.3em 0.5em 1em 0.5em;
+}
+
+.contenedor2 input:hover{
+border: 1.5px solid 
+black;
+}
+
+.form2 input{
+    max-height: 30px;
+    border-radius:10px;
+    border: 1px;
+}
+
+.textTarea2 {
+    max-height: 11vw;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(min-width:500px) {
+    .form2{
+        width: 100vw;
+        margin-top: 5rem;
+        margin-left: 25rem;
+        margin-bottom: 5rem;
+        margin-right: 25rem;
+    }
+}
